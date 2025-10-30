@@ -22,6 +22,12 @@ function NavBar() {
       >
         Login
       </NavLink>
+      <NavLink
+        to="/users"
+        className="nav-link"
+      >
+        Users
+      </NavLink>
     </nav>
   );
 };
